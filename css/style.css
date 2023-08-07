@@ -313,13 +313,16 @@ button {
     width: 100%;
     float: left;
     padding-top: 80px;
+    padding-top: 195px;
+	margin-left: 65px;
 }
 
 .banner_taital {
     width: 100%;
     font-size: 90px;
-    color: #252525;
+    color: #dd1010;
     font-weight: 800;
+    margin-left: 11px;
 }
 
 .tasty_text {
@@ -341,7 +344,8 @@ button {
 .btn_main {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top:145px;
+    margin-left: 23px; 
 }
 
 .about_bt {
