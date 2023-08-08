@@ -313,7 +313,7 @@ button {
     width: 100%;
     float: left;
     padding-top: 80px;
-    padding-top: 195px;
+    padding-top:27px;
 	margin-left: 65px;
 }
 
@@ -355,7 +355,7 @@ button {
 .btn_main {
     width: 100%;
     float: left;
-    padding-top:145px;
+    padding-top:0px;
     margin-left: 23px; 
 }
 
