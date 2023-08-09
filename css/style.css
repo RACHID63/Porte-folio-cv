@@ -144,6 +144,8 @@ a,
 img {
     max-width: 100%;
     height: auto;
+    width: 450px;
+    border-radius: 15px;
 }
 
  :focus {
@@ -253,7 +255,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #4c4c4c;
+    color: #d07d6b;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -266,6 +268,7 @@ button {
 .navbar-brand {
     margin: 0px;
     float: right;
+    width: 206px;
 }
 
 .navbar {
@@ -305,8 +308,8 @@ button {
 
 .banner_section {
     width: 100%;
-    float: left;
-    padding: 33px 0px 100px 0px;
+	float: left;
+	padding: 39px 0px 71px 0px;
 }
 
 .banner_taital_main {
@@ -331,7 +334,7 @@ button {
 .banner_taital {
     width: 100%;
     font-size: 90px;
-    color: #dd1010;
+    color:black;
     font-weight: 800;
     margin-left: 11px;
 }
@@ -368,7 +371,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #d48272;
+    background-color: #b04935;
     color: #fefefd;
     text-align: center;
     padding: 12px;
@@ -376,8 +379,8 @@ button {
 }
 
 .about_bt a:hover {
-    color: #fefefd;
-    background-color: #4a4949;
+    color: #f4eae8;
+    background-color: black;
 }
 
 .callnow_bt {
@@ -393,7 +396,7 @@ button {
     color: #fefefd;
     text-align: center;
     padding: 12px;
-    margin-left: 10px;
+    margin-left: 100px;
     border-radius: 5px;
 }
 
@@ -409,12 +412,12 @@ button {
 
 #banner_slider a.carousel-control-prev {
     left: -120px;
-    top: 455px;
+    top: 140px;
 }
 
 #banner_slider a.carousel-control-next {
     right: 0px;
-    top: 400px;
+    top:199px;
     left: -120px;
     color: #fefefd;
     background-color: #4a4949;
@@ -442,6 +445,8 @@ button {
     width: 100%;
     float: left;
     text-align: center;
+    border-radius: 15px;
+    box-shadow: -7 7 0 brown;
 }
 
 
