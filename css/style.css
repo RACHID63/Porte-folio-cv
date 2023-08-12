@@ -27,6 +27,8 @@ html {
 }
 
 body {
+    height: 100%;
+    margin: 0;
     color: #666666;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -312,7 +314,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-bottom: 63px;
 }
 
 .banner_taital_main {
@@ -367,7 +368,7 @@ margin-bottom: 63px;
     width: 100%;
     float: left;
     padding-top:0px;
-    margin-left: 23px; 
+    margin-left: 23px;
 }
 
 .about_bt {
@@ -668,12 +669,13 @@ img {
 /* client section start */
 
 .client_section {
-    width: 100%;
+    width: 100%; /* Largeur de la div */
+    height: calc(100vh - 761px);
+    background-image: url(../images/header-bg.png) ;
     float: left;
-    background-image: url(../images/client-bg.png);
-    height: auto;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+    /* height: auto; */
+    background-size: cover;
+    /* padding-bottom: 50px; */
 }
 
 .client_section_2 {
@@ -885,15 +887,20 @@ textarea#comment.massage-bt::placeholder {
 
 /* footer section start */
 
-.footer_section {
-    width: 100%;
-    float: left;
-    height: auto;
-    background-image: url(../images/footer-bg.png);
-    background-size: 100% 100%;
-    padding: 90px 0px 0px 0px;
+.content-wrapper {
+    min-height: calc(100% - [hauteur du footer]px); /* Remplacez [hauteur du footer] par la hauteur réelle de votre footer, par exemple 60px */
+    padding-bottom: [hauteur du footer]px; /* Même valeur que ci-dessus */
 }
-
+.sticky-footer {
+    /* position: fixed; */
+    /* width: 100%;
+    float: left;
+    height:fit-content;
+    padding: 0px 0px 0px 0px; */
+    height: auto; /* Remplacez [hauteur du footer] par la hauteur réelle de votre footer */
+    background-color: #333; /* Couleur de fond, à ajuster selon vos besoins */
+    color: white; /* Couleur du texte, à ajuster selon vos besoins */
+}
 .address_text {
     width: 100%;
     float: left;
@@ -903,6 +910,7 @@ textarea#comment.massage-bt::placeholder {
     font-weight: bold;
     padding-bottom: 50px;
 }
+
 
 .footer_text {
     width: 60%;

@@ -7,7 +7,7 @@
 
 	var revapi486;
 	tpj(document).ready(function () {
-		if (tpj("#banner_slider").revolution == undefined) {
+		if (tpj("#rev_slider_486_1").revolution == undefined) {
 			revslider_showDoubleJqueryError("#rev_slider_486_1");
 		} else {
 			revapi486 = tpj("#rev_slider_486_1").show().revolution({
