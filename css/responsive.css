@@ -104,6 +104,13 @@
         padding: 1em 4%;
         width: 92%;
     }
+
+    .btn_main {
+        width: 100%;
+        
+        height: 40px;
+    }
+
     .mean-container .mean-nav ul li li a {
         width: 90%;
         padding: 1em 5%;
@@ -125,15 +132,32 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+
+    .banner_taital {
+        width: fit-content;
+        font-size: 53px;   
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
         padding: 15px 15px;
     }
-    .banner_taital_main {
-        padding-left: 15px;
+
+    .banner_taital {
+        width: fit-content;
+        font-size: 53px;   
     }
+    .banner_taital_main {
+        padding-left: 15px; 
+    }
+
+    .btn_main {
+        width: 100%;
+        
+        height: 40px;
+    }
+
     #banner_slider a.carousel-control-prev {
         left: 10px;
         top: 380px;
@@ -202,12 +226,23 @@
         width: 100%;
         text-align: center;
     }
+    .banner_taital {
+        width: fit-content;
+        font-size: 53px;   
+    }
     .banner_taital_main {
         padding-left: 20px;
     }
     .navbar {
         padding: 15px 0px;
     }
+
+    .btn_main {
+        width: 100%;
+        
+        height: 40px;
+    }
+
     #banner_slider a.carousel-control-prev {
         left: -41px;
         top: 404px;
@@ -312,9 +347,22 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .banner_taital {
+        width: fit-content;
+        font-size: 53px;   
+    }
+
     .banner_taital_main {
         padding-top: 0px;
     }
+
+    .btn_main {
+        width: 100%;
+        
+        height: 40px;
+    }
+
     .tasty_text {
         color: #ffffff;
     }
@@ -358,8 +406,10 @@
     .about_text {
         font-size: 15px;
     }
+    
     .client_section {
         background: rgb(208, 125, 107, 0.6);
+        background-image: url(../images/Bébé/);
         background-size: cover;
     }
     .client_left {
@@ -443,9 +493,22 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .banner_taital {
+        width: fit-content;
+        font-size: 53px;   
+    }
+
     .banner_taital_main {
         padding-top: 0px;
     }
+
+    .btn_main {
+        width: 100%;
+        
+        height: 40px;
+    }
+
     .tasty_text {
         color: #ffffff;
     }
@@ -489,10 +552,14 @@
     .about_text {
         font-size: 15px;
     }
+   
     .client_section {
-        background: rgb(208, 125, 107, 0.6);
-        background-size: cover;
+            background: rgb(208, 125, 107, 0.6);
+            background-image: url(../images/Bébé/);
+            background-size: cover;
     }
+       
+
     .client_left {
         width: 100%;
         padding-left: 0px;

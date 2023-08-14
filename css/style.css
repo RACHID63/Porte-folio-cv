@@ -887,6 +887,10 @@ textarea#comment.massage-bt::placeholder {
 
 /* footer section start */
 
+.col-lg-6 {
+    max-width: 100%;  
+}
+
 .content-wrapper {
     min-height: calc(100% - [hauteur du footer]px); /* Remplacez [hauteur du footer] par la hauteur réelle de votre footer, par exemple 60px */
     padding-bottom: [hauteur du footer]px; /* Même valeur que ci-dessus */
