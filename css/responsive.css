@@ -79,6 +79,18 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
 
@@ -137,11 +149,29 @@
         width: fit-content;
         font-size: 53px;   
     }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
         padding: 15px 15px;
+    }
+
+    .banner_slider {
+        position: relative;
+        top: -278px;
+        left: -55px;  
     }
 
     .banner_taital {
@@ -207,6 +237,18 @@
     }
     .client_right {
         padding-top: 0px;
+    }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
     }
 }
 
@@ -307,6 +349,18 @@
         float: right;
         text-align: center;
         padding-top: 15px;
+    }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
     }
 }
 
@@ -453,6 +507,18 @@
     }
     .footer_social_icon {
         text-align: center;
+    }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
     }
 }
 
@@ -602,4 +668,18 @@
     .footer_social_icon {
         text-align: center;
     }
+
+    .carousel-inner {
+        position: absolute;
+        top: 135px;
+        left:90px;   
+    }
+
+    .carousel-inner .banner_img img {
+        width: 117%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+   
 }

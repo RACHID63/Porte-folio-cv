@@ -28,19 +28,19 @@ circle {
 	will-change: transform;
 
 	&:nth-of-type(1) {
-		stroke-dasharray: 550px;
+		stroke-dasharray: 400px;
 	}
 
 	&:nth-of-type(2) {
-		stroke-dasharray: 500px;
+		stroke-dasharray:300px;
 	}
 
 	&:nth-of-type(3) {
-		stroke-dasharray: 450px;
+		stroke-dasharray: 320px;
 	}
 
 	&:nth-of-type(4) {
-		stroke-dasharray: 300px;
+		stroke-dasharray: 180px;
 	}
 
 	@for $i from 1 through 4 {
