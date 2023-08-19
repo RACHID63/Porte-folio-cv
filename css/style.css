@@ -542,14 +542,13 @@ button {
 }
 
 #banner_slider a.carousel-control-prev {
-    left: -120px;
-    top: 140px;
+    top: 180px;
+    left: 250px;
 }
 
 #banner_slider a.carousel-control-next {
-    right: 0px;
-    top:199px;
-    left: -120px;
+    top:180px;
+    left: 551px;
     color: #fefefd;
     background-color: #4a4949;
 }
