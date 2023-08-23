@@ -220,10 +220,10 @@ button {
     margin: 0;
 	/* font-size: 400px; */
 	position: absolute;
-	left: 1450px;
-	top: 600px;
+	left: 50vw;
+    top: 42vh;
     text-align:center;
-    font-size:90px;
+    font-size:4vw;
     background-image: linear-gradient(
       -225deg,
       #ec1349 15%,
@@ -376,8 +376,8 @@ button {
     /* Appliquer l'effet de zoom, rotation et flash */
     animation: zoomRotate 1s 0.5s forwards, flashEffect 1s 1.5s;
     position: absolute;
-    top: 376px;
-    left: 147px;
+    top: 4vh;
+    left: 11vw;
 }
 
 .flasPhoto {
@@ -420,35 +420,23 @@ button {
 
 .banner_taital_main {
     position: relative;
-    top: -177px;
-     left: -216px;
+    top: -16vh;
+    left: -9vw;
     width: 0%;
     float: left;
     flex-direction: column;
     display: flex;
     align-content: center;
     align-items: center;
-    
-	
-}
-
-.banner_taital_main{
-    width: 100%;
+    width: 50%;
     text-align: center;
-    /* float: left; */
-    /* padding-top: 80px; */
-    /* padding-top: 195px; */
-    /* margin-top: 200px;
-	margin-left: 65px; */
-
 }
-
 
 
 .banner_taital {
     width: fit-content;
-    font-size: 50px;
-    color:black;
+    font-size: 35px;
+    color:rgb(100, 59, 50);
     font-weight: 800;
     margin-left: 0px;
 }
@@ -484,10 +472,10 @@ button {
 }
 
 .btn_main {
-    width: 100%;
-    margin-left: 851px;
+    width: 56%;
+    height: 78px;
+    margin-left: 0px;
     padding-top:0px;
-   
 }
 
 .about_bt {
@@ -512,43 +500,44 @@ button {
 }
 
 .callnow_bt {
-    width: 400px;
+    width: 104%;
     display: flex;
     align-items: center;
     align-content: center;
-    /* float: left; */
+    float: left; 
 }
 
 .callnow_bt a {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #d48272;
-    color: #fefefd;
+    color:white;
+     background-color: #d48272; 
+   
     text-align: center;
     padding: 12px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border-radius: 5px;
 }
 
 .callnow_bt a:hover {
     color: #fefefd;
-    background-color: #4a4949;
+    background-color:rgb(100, 59, 50);
 }
 
-.callnow_bt.active a {
+/* .callnow_bt.active a {
     color: #fefefd;
-    background-color: #4a4949;
-}
+    background-color: #c83434;
+} */
 
 #banner_slider a.carousel-control-prev {
-    top: 180px;
-    left: 250px;
+    top: -3vh;
+    left: 33vw;;
 }
 
 #banner_slider a.carousel-control-next {
-    top:180px;
-    left: 551px;
+    top: -3vh;
+    left: 36vw;
     color: #fefefd;
     background-color: #4a4949;
 }
@@ -1019,7 +1008,7 @@ textarea#comment.massage-bt::placeholder {
     float: left;
     height:fit-content;
     padding: 0px 0px 0px 0px; */
-    height: auto; /* Remplacez [hauteur du footer] par la hauteur réelle de votre footer */
+    height: 10vh; /* Remplacez [hauteur du footer] par la hauteur réelle de votre footer */
     background-color: #333; /* Couleur de fond, à ajuster selon vos besoins */
     color: white; /* Couleur du texte, à ajuster selon vos besoins */
 }

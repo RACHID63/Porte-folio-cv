@@ -205,7 +205,8 @@
         padding: 90px 0px 20px 0px;
     }
     .header_section {
-        background-image: none;
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
         background-color: #fb795f;
         /* background-size: 100% 100%; */
     }
@@ -262,7 +263,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header_section {
-        background-size: 100% 100%;
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
+        background-color: #fb795f;
+        /* background-size: 100% 100%; */
     }
     .navbar-light .navbar-toggler {
         color: #fff;
@@ -278,7 +282,9 @@
     }
 
     .header_section {
-        background-image: none;
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
+        background-color: #fb795f;
         background-color: #fb795f;
         /* background-size: 100% 100%; */
     }
@@ -391,7 +397,9 @@
         color: #ffffff;
     }
     .header_section {
-        background-size: cover;
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
+        background-color: #fb795f;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
@@ -412,7 +420,8 @@
     }
 
     .header_section {
-        background-image: none;
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
         background-color: #fb795f;
         /* background-size: 100% 100%; */
     }
@@ -561,9 +570,9 @@
         color: #ffffff;
     }
     .header_section {
-        background-image: none;
-        /* background-size: cover; */
-        /* background-color: #fb795f; */
+        background-image:url(../images/camera-1239384_1280.jpg);
+        background-size:cover;
+        background-color: #fb795f;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
