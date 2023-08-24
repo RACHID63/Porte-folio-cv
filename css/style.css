@@ -434,11 +434,18 @@ button {
 
 
 .banner_taital {
+    
     width: fit-content;
-    font-size: 35px;
-    color:rgb(100, 59, 50);
+    font-size: 25px;
+    color: black;
     font-weight: 800;
     margin-left: 0px;
+    padding: 12px;
+    background-color: white;
+    height: 56px;
+    border-radius: 19px;
+    margin-bottom: 10px;
+    
 }
 
 /* Effet de flash */
@@ -513,11 +520,10 @@ button {
     font-size: 18px;
     color:white;
      background-color: #d48272; 
-   
     text-align: center;
     padding: 12px;
     /* margin-left: 100px; */
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .callnow_bt a:hover {
