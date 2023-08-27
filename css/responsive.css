@@ -1,722 +1,996 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-search {
-        padding: 15px 0px;
-    }
-}
 
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
-    .logo {
-        text-align: center;
-    }
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .mg {
-        margin: 0px 0px;
-    }
-    .menu-area-main {
-        height: 256px;
-        overflow-y: auto;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        height: 19px;
-    }
-    .category-box.women-box {
-        display: none;
-    }
-    .cart-box {
-        display: inline-block;
-        margin: 0px 30px;
-    }
-    .wish-box {
-        float: none;
-        margin: 0px 30px;
-        display: inline-block;
-    }
-    .menu-add {
-        display: none;
-    }
-    .category-box {
-        display: none;
-    }
-    .mean-container .mean-nav ul li ol {
-        padding: 0px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 10px 20px;
-        width: 94.8%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 92%;
-        padding: 1em 4%;
-    }
-    .mean-container .mean-nav ul li li li a {
-        width: 100%;
-    }
-    .header-search {
-        padding: 15px 0px;
-    }
-    #collapseFilter.d-md-block {
-        padding: 30px 0px;
-    }
+  body {
+    background-color: #fb795f;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .header_section {
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  #app {
+    margin: 0;
+    position: absolute;
+    left: 24vw;
+    top: 50vh;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+
+  .navbar-brand {
+    float: right;
+    width: 80px;
+  }
+
+  .cart-content-right {
+    padding-bottom: 5px;
+  }
+
+  .img {
+    margin: 0px 0px;
+  }
+  .menu-area-main {
+    height: 256px;
+    overflow-y: auto;
+  }
+  .megamenu > .row [class*="col-"] {
+    padding: 0px;
+  }
+  .menu-area-main .megamenu .men-cat {
+    padding: 0px 15px;
+  }
+  .menu-area-main .megamenu .women-cat {
+    padding: 0px 15px;
+  }
+  .menu-area-main .megamenu .el-cat {
+    padding: 0px 15px;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    height: 19px;
+  }
+  .category-box.women-box {
+    display: none;
+  }
+  .cart-box {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  .wish-box {
+    float: none;
+    margin: 0px 30px;
+    display: inline-block;
+  }
+  .menu-add {
+    display: none;
+  }
+  .category-box {
+    display: none;
+  }
+  .mean-container .mean-nav ul li ol {
+    padding: 0px;
+  }
+  .mean-container .mean-nav ul li a {
+    padding: 10px 20px;
+    width: 94.8%;
+  }
+  .mean-container .mean-nav ul li li a {
+    width: 92%;
+    padding: 1em 4%;
+  }
+  .mean-container .mean-nav ul li li li a {
+    width: 100%;
+  }
+  .header-search {
+    padding: 15px 0px;
+  }
+  #collapseFilter.d-md-block {
+    padding: 30px 0px;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 84px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
-
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 1em 4%;
-        width: 92%;
-    }
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fb795f;
+  }
 
-    .btn_main {
-        width: 100%;
-        
-        height: 40px;
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .mean-container .mean-nav ul li li a {
-        width: 90%;
-        padding: 1em 5%;
-    }
-    .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
-        text-transform: capitalize;
-        width: 100%;
-    }
-    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
-        border: none;
-        float: none;
-    }
-    .menu-area-main {
-        height: 45px;
-        overflow-y: auto;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        top: 0;
-    }
+  #app {
+    margin: 0;
+    /* font-size: 400px; */
+    position: absolute;
+    left: 24vw;
+    top: 5%;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
 
-    .banner_taital {
-        width: fit-content;
-        font-size: 53px;   
-    }
+  .cart-content-right {
+    padding-bottom: 5px;
+  }
+  .megamenu > .row [class*="col-"] {
+    padding: 0px;
+  }
+  .menu-area-main .megamenu .men-cat {
+    padding: 0px 15px;
+  }
+  .menu-area-main .megamenu .women-cat {
+    padding: 0px 15px;
+  }
+  .menu-area-main .megamenu .el-cat {
+    padding: 0px 15px;
+  }
+  .mean-container .mean-nav ul li a {
+    padding: 1em 4%;
+    width: 92%;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .mean-container .mean-nav ul li li a {
+    width: 90%;
+    padding: 1em 5%;
+  }
+  .mean-container .sub-full.megamenu-categories ol li a {
+    padding: 5px 0px;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+    width: auto;
+    border: none;
+    float: none;
+  }
+  .menu-area-main {
+    height: 45px;
+    overflow-y: auto;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    top: 0;
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  .banner_taital {
+    color: black;
+    font-weight: 800;
+    font-size: 10px;
+    margin-left: 0px;
+    padding: 5px;
+    /* background-color: white; */
+    /* height: 37px;
+    border-radius: 8px;
+    margin-bottom: 5px; */
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 84px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    body {
-        background-image: none;
-        background-color: #fb795f;
-    }
-    .navbar {
-        padding: 15px 15px;
-    }
+  body {
+    background-color: #fb795f;
+  }
 
-    .banner_slider {
-        position: relative;
-        top: -278px;
-        left: -55px;  
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .banner_taital {
-        width: fit-content;
-        font-size: 53px;   
-    }
-    .banner_taital_main {
-        padding-left: 15px; 
-    }
+  #app {
+    margin: 0;
+    /* font-size: 400px; */
+    position: absolute;
+    left: 24vw;
+    top: 50vh;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
 
-    .btn_main {
-        width: 100%;
-        
-        height: 40px;
-    }
+  .navbar {
+    padding: 15px 15px;
+  }
 
-    #banner_slider a.carousel-control-prev {
-        left: 10px;
-        top: 380px;
-    }
-    #banner_slider a.carousel-control-next {
-        right: 0px;
-        top: 380px;
-        left: 70px;
-    }
-    .banner_section {
-        padding: 90px 0px 20px 0px;
-    }
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-        /* background-size: 100% 100%; */
-    }
-    #banner_slider a.carousel-control-next {
-        top: 48px;
-        left: 251px;
-        width: 30px;
-    }
-    #banner_slider a.carousel-control-prev {
-        top: 48px;
-        left: 221px;
-        width: 30px;
-    }
-    .types_text {
-        font-size: 20px;
-    }
-    .looking_text {
-        font-size: 12px;
-    }
-    .about_img {
-        width: 100%;
-        margin-top: 80px;
-    }
-    .about_text {
-        font-size: 14px;
-    }
-    .about_taital_box {
-        width: 500px;
-        padding: 40px 20px 30px 20px;
-        top: 1430px;
-    }
-    .readmore_btn {
-        margin-top: 20px;
-    }
-    .about_img {
-        height: 420px;
-    }
-    .client_right {
-        padding-top: 0px;
-    }
+  .navbar-brand {
+    float: right;
+    width: 80px;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .banner_slider {
+    position: relative;
+    top: -278px;
+    left: -55px;
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  .banner_taital {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: white;
+    height: 37px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  .banner_taital_main {
+    position: relative;
+    top: -1vh;
+    left: 5vw;
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn_main {
+    display: none;
+  }
+
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  .banner_section {
+    padding: 90px 0px 20px 0px;
+  }
+
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+  .types_text {
+    font-size: 20px;
+  }
+  .looking_text {
+    font-size: 12px;
+  }
+  .about_img {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .about_text {
+    font-size: 14px;
+  }
+  .about_taital_box {
+    width: 500px;
+    padding: 40px 20px 30px 20px;
+    top: 1430px;
+  }
+  .readmore_btn {
+    margin-top: 20px;
+  }
+  .about_img {
+    height: 420px;
+  }
+  .client_right {
+    padding-top: 0px;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 221px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-        /* background-size: 100% 100%; */
-    }
-    .navbar-light .navbar-toggler {
-        color: #fff;
-        border-color: #fb795f;
-        background: #fb795f;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        text-align: center;
-    }
-    .search_bt {
-        width: 100%;
-        text-align: center;
-    }
+  body {
+    background-color: #fb795f;
+  }
 
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-        background-color: #fb795f;
-        /* background-size: 100% 100%; */
-    }
-    .banner_taital {
-        width: fit-content;
-        font-size: 53px;   
-    }
-    .banner_taital_main {
-        padding-left: 20px;
-    }
-    .navbar {
-        padding: 15px 0px;
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .btn_main {
-        width: 100%;
-        
-        height: 40px;
-    }
+  #app {
+    margin: 0;
+	position: absolute;
+	left: 34vw;
+  top: 50vh;
+	text-align: center;
+	font-size: 5vw;
+	background-image: linear-gradient( -225deg, #ec1349 15%, #44107a 29%, #ff1361 67%, #fff800 100% );
+	background-clip: border-box;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+  }
 
-    #banner_slider a.carousel-control-next {
-        top: 48px;
-        left: 251px;
-        width: 30px;
-    }
-    #banner_slider a.carousel-control-prev {
-        top: 48px;
-        left: 221px;
-        width: 30px;
-    }
-    .about_bt {
-        width: 140px;
-        float: left;
-    }
-    .callnow_bt {
-        width: 140px;
-        float: left;
-    }
-    #main_slider a.carousel-control-prev {
-        left: 0;
-        top: 95px;
-    }
-    #main_slider a.carousel-control-next {
-        right: 0;
-        top: 95px;
-    }
-    .about_img {
-        width: 100%;
-        height: 370px;
-        margin-top: 60px;
-    }
-    .about_taital_box {
-        width: 370px;
-        float: left;
-        top: 1960px;
-    }
-    .about_text {
-        font-size: 14px;
-    }
-    .client_text {
-        width: 85%;
-        font-size: 14px;
-    }
-    .client_right {
-        padding-top: 0;
-    }
-    .client_left {
-        padding-left: 0;
-    }
-    .mail_section_1 {
-        width: 60%;
-        margin: 0 auto;
-    }
-    .footer_text {
-        width: 100%;
-    }
-    .copyright_section .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .footer_social_icon {
-        float: right;
-        text-align: center;
-        padding-top: 15px;
-    }
+  .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fb795f;
+    background: #fb795f;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .search_bt {
+    width: 100%;
+    text-align: center;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/camera-1239384_1280.jpg);
+    background-size: cover;
+    /* background-size: 100% 100%; */
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  .banner_taital {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: white;
+    height: 37px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  .banner_taital_main {
+    position: relative;
+    top: -1vh;
+    left: 1vw;
+    width: 100%;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background:rgb(199, 96, 75) ;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 3px 10px;
+    font-size: 17px;
+    color:white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background:rgb(66, 49, 49);
+
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: red;
+  }
+
+  .navbar {
+    padding: 15px 0px;
+  }
+
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+  .about_bt {
+    width: 140px;
+    float: left;
+  }
+
+  .callnow_bt,
+  a {
+    width: 100%;
+    font-size: 11px;
+    /* float: left; */
+    color: white;
+    background-color: #d48272;
+    text-align: center;
+    padding: 1px;
+    border-radius: 12px;
+  }
+
+  #main_slider a.carousel-control-prev {
+    display: none;
+  }
+  #main_slider a.carousel-control-next {
+    display: none;
+  }
+
+  .btn_main {
+    display: none;
+  }
+  
+  .about_img {
+    width: 100%;
+    height: 370px;
+    margin-top: 60px;
+  }
+  .about_taital_box {
+    width: 370px;
+    float: left;
+    top: 1960px;
+  }
+  .about_text {
+    font-size: 14px;
+  }
+  .client_text {
+    width: 85%;
+    font-size: 14px;
+  }
+  .client_right {
+    padding-top: 0;
+  }
+  .client_left {
+    padding-left: 0;
+  }
+  .mail_section_1 {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .footer_text {
+    width: 100%;
+  }
+  .copyright_section .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer_social_icon {
+    float: right;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 221px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .navbar {
-        padding: 15px 0px;
-    }
-    .navbar-light .navbar-toggler {
-        color: #fff;
-        border-color: #fff;
-        background: #fff;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        color: #ffffff;
-    }
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        text-align: center;
-    }
-    .search_bt {
-        width: 100%;
-        text-align: center;
-    }
-    #banner_slider a.carousel-control-next {
-        top: 16px;
-        left: 221px;
-        width: 44px;
-    }
-    #banner_slider a.carousel-control-prev {
-        left: 100px;
-        top: 585px;
-        display: none;
-    }
+  body {
+    background-color: #fb795f;
+  }
 
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-        /* background-size: 100% 100%; */
-    }
-    .banner_section .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .banner_taital {
-        width: fit-content;
-        font-size: 53px;   
-    }
+  #app {
+    margin: 0;
+    /* font-size: 400px; */
+    position: absolute;
+    left: 24vw;
+    top: 50vh;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
 
-    .banner_taital_main {
-        padding-top: 0px;
-    }
+  .navbar {
+    padding: 15px 0px;
+  }
 
-    .btn_main {
-        width: 100%;
-        
-        height: 40px;
-    }
+  .navbar-brand {
+    float: right;
+    width: 80px;
+  }
 
-    .tasty_text {
-        color: #ffffff;
-    }
-    .about_bt {
-        width: 140px;
-        float: left;
-    }
-    .callnow_bt {
-        width: 140px;
-        float: left;
-    }
-    .coffee_taital {
-        font-size: 30px;
-    }
-    #banner_slider a.carousel-control-next {
-        top: 48px;
-        left: 251px;
-        width: 30px;
-    }
-    #banner_slider a.carousel-control-prev {
-        top: 48px;
-        left: 221px;
-        width: 30px;
-    }
-    .about_taital_box {
-        position: inherit;
-    }
-    .about_taital {
-        font-size: 30px;
-    }
-    .image_iman {
-        padding-left: 0;
-    }
-    .about_taital_box {
-        width: 100%;
-    }
-    .about_taital_1 {
-        font-size: 25px;
-    }
-    .about_img {
-        margin-top: 40px;
-    }
-    .about_text {
-        font-size: 15px;
-    }
-    
-    .client_section {
-        background: rgb(208, 125, 107, 0.6);
-        background-image: none;
-        /* background-size: cover; */
-    }
-    .client_left {
-        width: 100%;
-        padding-left: 0px;
-    }
-    .client_right {
-        width: 100%;
-        padding-top: 20px;
-    }
-    .client_taital_main {
-        display: block;
-    }
-    .client_text {
-        width: 100%;
-    }
-    .client_img {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .prep_text {
-        width: 100%;
-        font-size: 19px;
-    }
-    .read_bt a {
-        margin-bottom: 30px;
-    }
-    .mail_section_1 {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .footer_text {
-        width: 100%;
-    }
-    .form-group {
-        width: 100%;
-    }
-    .copyright_section .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .footer_social_icon {
-        text-align: center;
-    }
+  .navbar-light .navbar-toggler {
+    color: #ede1e1;
+    border-color: #fff;
+    background: #fff;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: beige;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgb(215, 127, 108);
+    margin-top: 13px;
+    border-radius: 7px;
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  .search_bt {
+    width: 100%;
+    text-align: center;
+  }
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+
+  .banner_section .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .banner_taital {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: white;
+    height: 37px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  .banner_taital_main {
+    position: relative;
+    top: -1vh;
+    left: 5vw;
+    width: 100%;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn_main {
+    display: none;
+  }
+
+  .tasty_text {
+    color: #ffffff;
+  }
+  .about_bt {
+    width: 140px;
+    float: left;
+  }
+
+  .callnow_bt a {
+    width: 100%;
+    float: left;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .coffee_taital {
+    font-size: 30px;
+  }
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+  .about_taital_box {
+    position: inherit;
+  }
+  .about_taital {
+    font-size: 30px;
+  }
+  .image_iman {
+    padding-left: 0;
+  }
+  .about_taital_box {
+    width: 100%;
+  }
+  .about_taital_1 {
+    font-size: 25px;
+  }
+  .about_img {
+    margin-top: 40px;
+  }
+  .about_text {
+    font-size: 15px;
+  }
+
+  .client_section {
+    background: rgb(208, 125, 107, 0.6);
+    background-image: none;
+    /* background-size: cover; */
+  }
+  .client_left {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .client_right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .client_taital_main {
+    display: block;
+  }
+  .client_text {
+    width: 100%;
+  }
+  .client_img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .prep_text {
+    width: 100%;
+    font-size: 19px;
+  }
+  .read_bt a {
+    margin-bottom: 30px;
+  }
+  .mail_section_1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer_text {
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .copyright_section .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer_social_icon {
+    text-align: center;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 84px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 @media (max-width: 575px) {
-    body {
-        background-image: none;
-        /* background-size: cover; */
-        background-color: #fb795f; 
-    }
-    .navbar {
-        padding: 15px 0px;
-    }
-    .navbar-light .navbar-toggler {
-        color: #fff;
-        border-color: #fff;
-        background: #fff;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        color: #ffffff;
-    }
-    .header_section {
-        background-image:url(../images/camera-1239384_1280.jpg);
-        background-size:cover;
-        background-color: #fb795f;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        text-align: center;
-    }
-    .search_bt {
-        width: 100%;
-        text-align: center;
-    }
-    
-    #banner_slider a.carousel-control-next {
-        top: 48px;
-        left: 251px;
-        width: 30px;
-    }
-    #banner_slider a.carousel-control-prev {
-        top: 48px;
-        left: 221px;
-        width: 30px;
-    }
-    .banner_section .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+  body {
+    background-color: #fb795f;
+  }
 
-    .banner_taital {
-        width: fit-content;
-        font-size: 53px;   
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background: url(../images/pexels-hassan.jpg);
+  }
 
-    .banner_taital_main {
-        padding-top: 0px;
-    }
+  #app {
+    margin: 0;
+    /* font-size: 400px; */
+    position: absolute;
+    left: 24vw;
+    top: 50vh;
+    text-align: center;
+    font-size: 6vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
 
-    .btn_main {
-        width: 100%;
-        
-        height: 40px;
-    }
+  .navbar {
+    padding: 15px 0px;
+  }
 
-    .tasty_text {
-        color: #ffffff;
-    }
-    .about_bt {
-        width: 140px;
-        float: left;
-    }
-    .about_img {
-        margin-top: 40px;
-    }
-    .callnow_bt {
-        width: 140px;
-        float: left;
-    }
-    .coffee_taital {
-        font-size: 30px;
-    }
-    #main_slider a.carousel-control-next {
-        right: 0;
-        display: none;
-    }
-    #main_slider a.carousel-control-prev {
-        left: 0;
-        display: none;
-    }
-    .about_taital_box {
-        position: inherit;
-    }
-    .about_taital {
-        font-size: 30px;
-    }
-    .image_iman {
-        padding-left: 0;
-    }
-    .about_taital_box {
-        width: 100%;
-    }
-    .about_taital_1 {
-        font-size: 25px;
-    }
-    .about_text {
-        font-size: 15px;
-    }
-   
-    .client_section {
-            background: rgb(208, 125, 107, 0.6);
-            background-image: url(../images/Bébé/);
-            background-size: cover;
-    }
-       
+  .navbar-brand {
+    float: right;
+    width: 80px;
+  }
 
-    .client_left {
-        width: 100%;
-        padding-left: 0px;
-    }
-    .client_right {
-        width: 100%;
-        padding-top: 20px;
-    }
-    .client_taital_main {
-        display: block;
-    }
-    .client_text {
-        width: 100%;
-    }
-    .client_img {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .prep_text {
-        width: 100%;
-        font-size: 19px;
-    }
-    .read_bt a {
-        margin-bottom: 30px;
-    }
-    .mail_section_1 {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .footer_text {
-        width: 100%;
-    }
-    .form-group {
-        width: 100%;
-    }
-    .copyright_section .row {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .footer_social_icon {
-        text-align: center;
-    }
+  .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background: #fff;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+  }
 
-    .carousel-inner {
-        position: absolute;
-        top: 135px;
-        left:90px;   
-    }
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgb(215, 127, 108);
+    margin-top: 13px;
+    border-radius: 7px;
+  }
 
-    .carousel-inner .banner_img img {
-        width: 117%;
-        object-fit: cover;
-        object-position: center;
-    }
+  .header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/camera-1239384_1280.jpg);
+    background-size: cover;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .search_bt {
+    width: 100%;
+    text-align: center;
+  }
 
-   
+  #banner_slider a.carousel-control-next {
+    display: none;
+  }
+  #banner_slider a.carousel-control-prev {
+    display: none;
+  }
+  .banner_section .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .banner_taital {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: white;
+    height: 37px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  .banner_taital_main {
+    position: relative;
+    top: -1vh;
+    left: 0vw;
+    width: 100%;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn_main {
+    display: none;
+  }
+
+  .tasty_text {
+    color: #ffffff;
+  }
+  .about_bt {
+    width: 140px;
+    float: left;
+  }
+  .about_img {
+    margin-top: 40px;
+  }
+
+  .coffee_taital {
+    font-size: 30px;
+  }
+  #main_slider a.carousel-control-next {
+    display: none;
+  }
+  #main_slider a.carousel-control-prev {
+    display: none;
+  }
+  .about_taital_box {
+    position: inherit;
+  }
+  .about_taital {
+    font-size: 30px;
+  }
+  .image_iman {
+    padding-left: 0;
+  }
+  .about_taital_box {
+    width: 100%;
+  }
+  .about_taital_1 {
+    font-size: 25px;
+  }
+  .about_text {
+    font-size: 15px;
+  }
+
+  .client_section {
+    background: rgb(208, 125, 107, 0.6);
+    background-image: url(../images/Bébé/);
+    background-size: cover;
+  }
+
+  .client_left {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .client_right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .client_taital_main {
+    display: block;
+  }
+  .client_text {
+    width: 100%;
+  }
+  .client_img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .prep_text {
+    width: 100%;
+    font-size: 19px;
+  }
+  .read_bt a {
+    margin-bottom: 30px;
+  }
+  .mail_section_1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer_text {
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .copyright_section .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer_social_icon {
+    text-align: center;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 39px;
+    left: 84px;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 117%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
