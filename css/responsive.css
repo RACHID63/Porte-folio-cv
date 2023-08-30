@@ -132,6 +132,11 @@
     border: 0;
     margin: 0;
   }
+
+  .copyright_tex {
+    font: size 10px; ;
+  }
+
 }
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
@@ -248,6 +253,11 @@
     border: 0;
     margin: 0;
   }
+
+  .copyright_tex {
+    font: size 10px; ;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -399,6 +409,11 @@
     border: 0;
     margin: 0;
   }
+
+  .copyright_tex {
+    font: size 10px; ;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -611,6 +626,10 @@
     overflow: hidden;
     border: 0;
     margin: 0;
+  }
+
+  .copyright_tex {
+    font: size 10px; ;
   }
 }
 
@@ -849,6 +868,11 @@
     border: 0;
     margin: 0;
   }
+
+  .copyright_tex {
+    font: size 10px; ;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -1082,5 +1106,9 @@
     overflow: hidden;
     border: 0;
     margin: 0;
+  }
+  
+  .copyright_tex {
+    font: size 10px; ;
   }
 }
