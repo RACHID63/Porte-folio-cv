@@ -940,6 +940,14 @@
     background-image: url(../images/banner-bg.jpg);
   }
 
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 3px 10px;
+    font-size: 20px;
+    color: rgb(31, 14, 11);
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+
   .carousel-inner {
     left: -65px;
   }
@@ -1031,5 +1039,14 @@
   .navbar-brand {
     float: right;
     width: 105px;
+  }
+
+  .copyright_section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    float: left;
+    background-color: #d07d6b;
+    height: 48px;
   }
 }
