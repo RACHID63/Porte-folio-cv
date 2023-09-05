@@ -622,7 +622,7 @@
   }
 
   .carousel-inner {
-    top: -51px;
+    top: 142px;
     left: 113px;
   }
 
@@ -679,7 +679,7 @@
     /* font-size: 400px; */
     position: absolute;
     left: 24vw;
-    top: 50vh;
+    top: 16vh;
     text-align: center;
     font-size: 6vw;
     background-image: linear-gradient(
@@ -873,7 +873,7 @@
 
   .carousel-inner {
     position: absolute;
-    top: -39px;
+    top: 90px;
     left: 60px;
   }
 
@@ -903,39 +903,11 @@
   }
 }
 
-/* @media only screen and (orientation: landscape) and (min-width: 600px) and (max-width: 1024px) {
-  .header_section {
-    background-image: url(../images/banner-bg.jpg);
-  }
-
-  .carousel-inner {
-    left: -184px;
-  }
-
-  .boxRight {
-    text-align: start;
-    display: flexbox;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .col-sm-12 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  .row {
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
-
-  .carousel-item {
-    width: 55%;
-  }
-} */
-
 @media only screen and (orientation: landscape) and (min-width: 500px) and (max-width: 1000px) {
+  .header_section {
+    background-color: beige;
+  }
+
   .header_section {
     background-image: url(../images/banner-bg.jpg);
   }
@@ -949,7 +921,8 @@
   }
 
   .carousel-inner {
-    left: -65px;
+    left: -132px;
+    top: -29px;
   }
 
   .boxRight {
@@ -1048,5 +1021,73 @@
     float: left;
     background-color: #d07d6b;
     height: 48px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1000px) and (max-width: 1200px) {
+  .navbar-brand {
+    width: 12%;
+  }
+
+  #app {
+    margin: 0;
+    /* font-size: 400px; */
+    position: absolute;
+    left: 33vw;
+    top: 12vh;
+    text-align: center;
+    font-size: 4vw;
+    background-image: linear-gradient(
+      -225deg,
+      #ec1349 15%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+
+  .content-wrapper {
+    background-color: rgb(208, 125, 107);
+  }
+
+  .carousel-inner {
+    position: absolute;
+    top: 38px;
+    left: 312px;
+    width: 100%;
+  }
+
+  .banner_taital_main {
+    position: relative;
+    top: -18vh;
+    left: 1vw;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .row {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    background-color: black;
+  }
+
+  a {
+    color: wheat;
+    text-decoration: none;
+    outline: none !important;
   }
 }
