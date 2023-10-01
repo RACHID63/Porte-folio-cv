@@ -1,172 +1,177 @@
 <!DOCTYPE html>
-<html>
-
-<!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="gallerie.css">
+    <link rel="stylesheet" href="galerie.css">
     <title>Galerie de photos</title>
 </head>
 
 <body class="bg-dark">
     <h1 class="text-center my-4">Galerie de photos</h1>
-    <div class="btn-group" role="group" aria-label="Catégories de la galerie">
-        <button type="button" class="btn btn-primary gallery-button" data-gallery="all">Tout</button>
-        <button type="button" class="btn btn-primary gallery-button" data-gallery="mariage">Mariage</button>
-        <button type="button" class="btn btn-primary gallery-button" data-gallery="couple">Couple</button>
-        <button type="button" class="btn btn-primary gallery-button" data-gallery="Grossesse">Grossesse</button>
-        <!-- Ajoutez un bouton pour chaque galerie -->
-    </div>
-    <div class="container">
-
-        <div id="all-gallery" class="row gallery">
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
-                <img src="" class="img-fluid" alt="Description de l'image">
-            </div>
+    <div class="d-flex justify-content-center mb-5 ">
+        <div class="btn-group " role="group" aria-label="Catégories de la galerie">
+            <button type="button" class="btn btn-primary btn-lg gallery-button rounded-pill mr-2"
+                data-gallery="all">Tout</button>
+            <button type="button" class="btn btn-primary gallery-button rounded-pill mr-2"
+                data-gallery="mariage">Mariage</button>
+            <button type="button" class="btn btn-primary gallery-button rounded-pill mr-2"
+                data-gallery="couple">Couple</button>
+            <button type="button" class="btn btn-primary gallery-button rounded-pill"
+                data-gallery="Grossesse">Grossesse</button>
+            <!-- Ajoutez un bouton pour chaque galerie -->
         </div>
-        <div id="mariage-gallery" class="row gallery bg-danger " style="display: none;">
+    </div>
+    <div class="container  ">
+        <div id="all-gallery" class="row gallery justify-content-center rounded-5">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
-                <img src="./images/mariage/couple-443600_1280.jpg" class="img-fluid" alt="Description de l'image">
+        </div>
+        <div id="mariage-gallery" class="row gallery justify-content-center rounded-5 " style="display: none;">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
+                <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
+                <img src="./images/mariage/couple-443600_1280.jpg" class="img-fluid" alt="Description de l'image">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
                 <img src="./images/mariage/heart-529607_640.jpg" class="img-fluid" alt="Description de l'image">
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/mariage/sunset-698501_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
                 <img src="./images/mariage/wedding-2595862_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/mariage/heart-529607_640.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
                 <img src="./images/mariage/pink-wine-1964457_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/wedding-dress-1486260_1280.jpg" class="img-fluid" alt="Description de l'image">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
+                <img src="./images/mariage/wedding-dress-1486260_1280.jpg" class="img-fluid"
+                    alt="Description de l'image">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3   ">
+                <img src="./images/mariage/wedding-dresses-1486005_1280.jpg" class="img-fluid"
+                    alt="Description de l'image">
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/wedding-dresses-1486005_1280.jpg" class="img-fluid" alt="Description de l'image">
+                <img src="./images/mariage/wedding-dresses-1486256_1280.jpg" class="img-fluid"
+                    alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
-                <img src="./images/mariage/wedding-dresses-1486256_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/mariage/wedding-1867547_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/mariage/marriage-636018_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
         </div>
-        <div id="couple-gallery" class="row gallery bg-info" style="display: none;">
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
-                <img src="./images/Couple/black-and-white-2590810_1280.jpg" class="img-fluid" alt="Description de l'image">
+        <div id="couple-gallery" class="row gallery bg-info justify-content-center rounded-5 " style="display: none;">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
+                <img src="./images/Couple/black-and-white-2590810_1280.jpg" class="img-fluid"
+                    alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/bride-1355473_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1194312_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1822585_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1869206_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-4615557_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1194312_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-768683_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-955926_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/man-2425121_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/romantic-1934223_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/woman-1979272_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
         </div>
-        <div id="Grossesse-gallery" class="row gallery bg-secondary" style="display: none;">
+        <div id="Grossesse-gallery" class="row gallery bg-secondary justify-content-center rounded-5" style="display: none;">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/girl-18918_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/maternity-7890354_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/pregnancy-2221950_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Grossesse/pregnant-6189040_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/pregnant-775036_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/pregnant-775036_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/woman-358779_1280.png" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/woman-358779_1280.png" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1194312_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/couple-1822585_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Grossesse/pregnant-6189040_1280.jpg" class="img-fluid" alt="Description de l'image">
             </div>
-    
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Grossesse/woman-358779_1280.png" class="img-fluid" alt="Description de l'image">
             </div>
-    
+
         </div>
 
-    </div>    
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
