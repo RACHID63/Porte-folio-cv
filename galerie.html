@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="galerie.css">
     <title>Galerie de photos</title>
@@ -27,7 +28,11 @@
     <div class="container  ">
         <div id="all-gallery" class="row gallery justify-content-center rounded-5">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
+              
+                <a href="./images/mariage/couple-260899_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
+                </a> 
+           
             </div>
         </div>
         <div id="mariage-gallery" class="row gallery justify-content-center rounded-5 " style="display: none;">
@@ -187,6 +192,7 @@
             });
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
