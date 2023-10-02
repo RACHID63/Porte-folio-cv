@@ -7,76 +7,166 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="galerie.css">
+    <!-- <link rel="stylesheet" href="galerieEffet.css"> -->
     <title>Galerie de photos</title>
 </head>
 
 <body class="bg-dark">
     <h1 class="text-center my-4 text-light ">Galerie de photos</h1>
-    <div class="d-flex justify-content-center mb-5 custom-width ">
+    <div class="d-flex justify-content-center mb-5  ">
         <div class="btn-group " role="group" aria-label="Catégories de la galerie">
-            <button type="button" class="btn btn-primary btn-lg gallery-button rounded-pill p-3 mr-3"
+            <button type="button" class="btn btn-info btn-lg gallery-button  p-3 "
                 data-gallery="all">Tout</button>
-            <button type="button" class="btn btn-primary gallery-button rounded-pill mr-2"
+            <button type="button" class="btn btn-info gallery-button "
                 data-gallery="mariage">Mariage</button>
-            <button type="button" class="btn btn-primary gallery-button rounded-pill mr-2"
+            <button type="button" class="btn btn-info gallery-button "
                 data-gallery="couple">Couple</button>
-            <button type="button" class="btn btn-primary gallery-button rounded-pill"
+            <button type="button" class="btn btn-info gallery-button "
                 data-gallery="Grossesse">Grossesse</button>
             <!-- Ajoutez un bouton pour chaque galerie -->
         </div>
     </div>
     <div class="container  ">
-        <div id="all-gallery" class="row gallery justify-content-center rounded-5">
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-              
+        <div id="all-gallery" class="row gallery justify-content-center ">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/marriage-636018_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/marriage-636018_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+           
+        </div>
+        <div id="mariage-gallery" class="row gallery justify-content-center  " style="display: none;">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
                 <a href="./images/mariage/couple-260899_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
                     <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
-                </a> 
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/couple-443600_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/couple-443600_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/heart-529607_640.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/heart-529607_640.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/love-2587456_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/love-2587456_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/marriage-636018_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/marriage-636018_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/pink-wine-1964457_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/pink-wine-1964457_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/sunset-698501_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/sunset-698501_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/wedding-1867547_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/wedding-1867547_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/wedding-dress-1486260_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/wedding-dress-1486260_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/wedding-dresses-1486005_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/wedding-dresses-1486005_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
+                <a href="./images/mariage/wedding-dresses-1486256_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="./images/mariage/wedding-dresses-1486256_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+            
            
-            </div>
         </div>
-        <div id="mariage-gallery" class="row gallery justify-content-center rounded-5 " style="display: none;">
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
-                <img src="./images/mariage/couple-260899_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/couple-443600_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
-                <img src="./images/mariage/heart-529607_640.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/sunset-698501_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
-                <img src="./images/mariage/wedding-2595862_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/heart-529607_640.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
-                <img src="./images/mariage/pink-wine-1964457_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3  ">
-                <img src="./images/mariage/wedding-dress-1486260_1280.jpg" class="img-fluid"
-                    alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3   ">
-                <img src="./images/mariage/wedding-dresses-1486005_1280.jpg" class="img-fluid"
-                    alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/wedding-dresses-1486256_1280.jpg" class="img-fluid"
-                    alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/wedding-1867547_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
-                <img src="./images/mariage/marriage-636018_1280.jpg" class="img-fluid" alt="Description de l'image">
-            </div>
-        </div>
-        <div id="couple-gallery" class="row gallery bg-info justify-content-center rounded-5 " style="display: none;">
+        <div id="couple-gallery" class="row gallery bg-info justify-content-center  " style="display: none;">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 ">
                 <img src="./images/Couple/black-and-white-2590810_1280.jpg" class="img-fluid"
                     alt="Description de l'image">
@@ -127,7 +217,7 @@
             </div>
 
         </div>
-        <div id="Grossesse-gallery" class="row gallery bg-secondary justify-content-center rounded-5"
+        <div id="Grossesse-gallery" class="row gallery bg-secondary justify-content-center "
             style="display: none;">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3">
                 <img src="./images/Grossesse/girl-18918_1280.jpg" class="img-fluid" alt="Description de l'image">
@@ -183,15 +273,10 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-button').click(function () {
-                var gallery = $(this).data('gallery');
-                $('.gallery').hide();
-                $('#' + gallery + '-gallery').show();
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="./javascript.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 

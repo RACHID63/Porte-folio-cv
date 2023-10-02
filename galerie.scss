@@ -1,20 +1,73 @@
-
 $dark: rgb(62, 55, 55);
 $danger:rgb(223, 166, 197);
 $secondary:linear-gradient(to right, pink, blue);
 $primary:red;
 
-custom-width {
-    width: 584px;
-  }
+.btn {
+    border: solid;
+    border-radius: 120px;
+}
 
-gallery  {
-  border: solid white 2px;
-  box-shadow: 0px 1px 20px 20px rgb(233 221 221 / 75%);
+.gallery {
+    border-radius: 20px;
+    border: solid white 2px;
+    box-shadow: 0px 1px 20px 20px rgba(233, 221, 221, 0.75);
+}
+
+#mariage-gallery .img-fluid {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#mariage-gallery .img-fluid:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    position: relative;
+}
+
+.cart-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container:hover .cart-button {
+    display: block;
+}
+
+.image-container:hover .img-fluid {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.btn-active {
+    background-color: #ff00bb;
+    color: rgb(221, 224, 204);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
 }
 
 
-// Ajoutez d'autres couleurs si nécessaire
+
 @import 'node_modules/bootstrap/scss/bootstrap.scss'
+
+
+
+// Ajoutez d'autres couleurs si nécessaire
+// @import 'node_modules/bootstrap/scss/bootstrap.scss'
 // @import 'node_modules/bootstrap/dist/css/bootstrap.css'
 // @import 'css/bootstrap.css';
