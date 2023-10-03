@@ -178,6 +178,12 @@ img {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
+#navbar{
+  background-color:rgb(208, 125, 107);
+}
+
+
+
 .navbar-form input {
   border: none !important;
 }
@@ -218,7 +224,7 @@ button {
   /* font-size: 400px; */
   position: absolute;
   left: 50vw;
-  top: 42vh;
+  top: 53vh;
   text-align: center;
   font-size: 4vw;
   background-image: linear-gradient(
@@ -265,6 +271,7 @@ button {
 }
 .header_bg .navbar-expand-lg .navbar-nav .nav-link {
   color: #ffffff;
+  background: rgb(246, 147, 126);
 }
 
 .bg-light {
@@ -958,7 +965,7 @@ textarea#comment.massage-bt::placeholder {
 
 footer {
   box-sizing: border-box;
-  background: rgb(208, 125, 107);
+  background: rgb(189, 186, 198);
 }
 
 .address_text {
