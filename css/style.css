@@ -25,7 +25,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   height: 100%;
   margin: 0;
   color: #666666;
@@ -34,9 +34,9 @@ body {
   line-height: 1.80857;
   font-weight: normal;
   overflow-x: hidden;
-}
+} */
 
-a {
+/* a {
   color: #1f1f1f;
   text-decoration: none !important;
   outline: none !important;
@@ -45,7 +45,7 @@ a {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
+} */
 
 h1,
 h2,
@@ -178,15 +178,10 @@ img {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
-#navbar{
-  background-color:rgb(208, 125, 107);
-}
 
-
-
-.navbar-form input {
+/* .navbar-form input {
   border: none !important;
-}
+} */
 
 .badge {
   font-weight: 500;
@@ -214,9 +209,9 @@ button {
   padding-bottom: 0px;
 }
 
-.padding_0 {
+/* .padding_0 {
   padding: 0px;
-}
+} */
 
 /* header section start */
 #app {
@@ -254,48 +249,48 @@ button {
   padding: 0;
   width: 100%;
   float: left;
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/fotor-ai-2023100513139.jpg);
   /* height:calc(100vh - 145px);  */
 
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-.header_bg {
+/* .header_bg {
   width: 100%;
   float: left;
   background-image: url(../images/man-3672010_1280.jpg);
   height: auto;
   background-size: 100%;
   background-repeat: no-repeat;
-}
-.header_bg .navbar-expand-lg .navbar-nav .nav-link {
+} */
+/* .header_bg .navbar-expand-lg .navbar-nav .nav-link {
   color: #ffffff;
   background:f0917f;
-}
+} */
 
-.bg-light {
+/* .bg-light {
   background-color: transparent !important;
-}
+} */
 
-.mr-auto,
+/* .mr-auto,
 .mx-auto {
   margin: 0 auto;
   text-align: center;
+} */
+#navbar {
+  background: linear-gradient(to right, #F2856D, #EC886C);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 3px 10px;
   font-size: 20px;
-  color: rgb(208, 125, 107);
   border-radius: 5px;
   text-transform: uppercase;
+  
 }
 
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #d07d6b;
-}
+
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -314,34 +309,34 @@ img#brand {
   border-radius: 0px;
 }
 
-.navbar {
+/* .navbar {
   padding: 15px 0px;
-}
+} */
 
-.user_icon {
+/* .user_icon {
   padding-right: 15px;
-}
+} */
 
-.login_bt {
+/* .login_bt {
   width: 210px;
-}
+} */
 
-.login_bt ul {
+/* .login_bt ul {
   margin: 0px;
   padding: 0px;
-}
+} */
 
-.login_bt li a {
+/* .login_bt li a {
   float: left;
   font-size: 18px;
   color: #d98473;
   text-transform: uppercase;
   padding: 0px 0px 0px 50px;
-}
+} */
 
-.login_bt li a:hover {
+/* .login_bt li a:hover {
   color: #4c4c4c;
-}
+} */
 
 /* header section end */
 /* Effet de flash */
@@ -965,7 +960,7 @@ textarea#comment.massage-bt::placeholder {
 
 footer {
   box-sizing: border-box;
-  background:f0917f;
+  background: linear-gradient(to right, #F2856D, #EC886C);
 }
 
 .address_text {
