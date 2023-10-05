@@ -279,7 +279,7 @@ button {
   text-align: center;
 } */
 #navbar {
-  background: linear-gradient(to right, #F2856D, #EC886C);
+  background: linear-gradient(50deg, #F2856D, #EC886C);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
