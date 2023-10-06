@@ -1,6 +1,7 @@
 
 
 
+
 $(document).ready(function(){
     $('#navbar').load('/navbar.html');
     $('#footer').load('/footer.html');
@@ -21,7 +22,14 @@ $(document).ready(function(){
     });
 });
 
-
+window.onload = function() {
+    var navbar = document.getElementById('navbar');
+    if (window.location.href.indexOf('index') > -1) {
+        navbar.style.background = 'blue';
+    } else if (window.location.href.indexOf('galerie') > -1) {
+        navbar.style.background = 'green';
+    }
+}
 
 
 
