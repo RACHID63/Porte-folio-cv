@@ -2,9 +2,10 @@
 
 
 
+
 $(document).ready(function(){
-    $('#navbar').load('/navbar.html');
-    $('#footer').load('/footer.html');
+    $('#navbar').load('/asset/layout/navbar.html');
+    $('#footer').load('/asset/layout/footer.html');
 });
 
 $(document).ready(function () {
