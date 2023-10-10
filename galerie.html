@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="galerie.css">
+    <link rel="stylesheet" href="Asset/persocss/galerie.css">
     <link rel="stylesheet" href="/Asset/persocss/galerieEffet.css">
     <link rel="stylesheet" href="/asset/persocss/style.css">
     <title>Galerie de photos</title>
@@ -17,7 +18,7 @@
 <body class="bg-dark">
     <div id="navbar"></div>
     <h1 class="text-center my-4 text-light ">Galerie de photos</h1>
-    <div class="d-flex justify-content-center mb-5  ">
+    <div class="d-flex justify-content-center mb-5 mt-5 ">
         <div class="btn-group" role="group" aria-label="Catégories de la galerie">
             <button type="button" class="btn btn-info btn-lg gallery-button  p-3 "
                 data-gallery="all">Tout</button>
@@ -47,7 +48,7 @@
         </div>
         <div id="mariage-gallery" class="row gallery justify-content-center bg-dark  " style="display: none;">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
-                <a href="../asset/images/mariage/couple-260899_1280.jpg" data-lightbox="image-1" data-title="photo réaliste d’un couple assis sur un banc dans un parc avec un grand manoir en arrière-plan. Le couple est assis proche l’un de l’autre et la femme tient un bouquet de fleurs. Le manoir est un grand bâtiment orné avec un toit rouge et des murs blancs. Le parc est rempli d’arbres et de fleurs, et il y a un chemin qui mène au manoir. L’image a une ambiance chaleureuse et romantique">
+                <a id="coupleAssis"  href="../asset/images/mariage/couple-260899_1280.jpg" data-lightbox="image-1" data-title="photo réaliste d’un couple assis sur un banc dans un parc avec un grand manoir en arrière-plan. Le couple est assis proche l’un de l’autre et la femme tient un bouquet de fleurs. Le manoir est un grand bâtiment orné avec un toit rouge et des murs blancs. Le parc est rempli d’arbres et de fleurs, et il y a un chemin qui mène au manoir. L’image a une ambiance chaleureuse et romantique">
                     <img src="../asset/images/mariage/couple-260899_1280.jpg" class="img-fluid" alt=" photo réaliste d’un couple assis sur un banc dans un parc avec un grand manoir en arrière-plan. Le couple est assis proche l’un de l’autre et la femme tient un bouquet de fleurs. Le manoir est un grand bâtiment orné avec un toit rouge et des murs blancs. Le parc est rempli d’arbres et de fleurs, et il y a un chemin qui mène au manoir. L’image a une ambiance chaleureuse et romantique.">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -281,6 +282,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="Asset/persojs/javascript.js"></script>

@@ -267,63 +267,16 @@ img#brand {
   }
 }
 
-/* Effet de zoom et rotation */
-@keyframes zoomRotate {
-  0% {
-    transform: scale(0.8) rotate(-5deg);
-    opacity: 0.5;
-  }
-
-  10% {
-    transform: scale(0.8) rotate(-5deg);
-    opacity: 0.5;
-  }
-
-  50% {
-    transform: scale(1.6) rotate(-3deg);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1) rotate(0deg);
-    opacity: 1;
-  }
-}
-
 .carousel-inner {
-  /* Appliquer l'effet de zoom, rotation et flash */
-  animation: zoomRotate 1s 0.5s forwards, flashEffect 1s 1.5s;
+  width: 50%;
   position: absolute;
-  top:16vh;
-  left: -38vw;
+  top:30vh;
+  left: -15vw;
 }
 
 .flasPhoto {
   max-width: 50%;
 }
-
-.carousel-inner .banner_img img {
-  width: 60%;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* zoom image */
-@keyframes zoomEffect {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-
-.banner_img img {
-  animation: zoomEffect 10s infinite alternate; /* 10s est la durée de l'animation. Vous pouvez l'ajuster selon vos besoins. */
-  transition: transform 0.5s ease-in-out;
-}
-
-/* banner section start */
 
 .banner_section {
   width: 100%;
@@ -333,7 +286,7 @@ img#brand {
 .banner_taital_main {
   position: relative;
   top: -16vh;
-  left: -9vw;
+  left: 0cqw;
   width: 0%;
   float: left;
   flex-direction: column;
@@ -468,7 +421,7 @@ img {
 
 /* about section start */
 
-.about_section {
+/* .about_section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
@@ -478,9 +431,9 @@ img {
   width: 100%;
   float: left;
   padding-top: 40px;
-}
+} */
 
-.about_taital {
+/* .about_taital {
   width: 100%;
   float: left;
   font-size: 40px;
@@ -530,52 +483,52 @@ img {
   width: 170px;
   float: left;
   margin-top: 40px;
-}
+} */
 
-.readmore_btn a {
+/* .readmore_btn a {
   width: 100%;
   float: left;
   font-size: 18px;
   color: #d78373;
   text-transform: uppercase;
   border-radius: 5px;
-  border: 1px solid #fc947f;
+  border: 3px solid #fc947f;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-}
+} */
 
-.readmore_btn a:hover {
+/* .readmore_btn a:hover {
   color: #4a4949;
   border: 1px solid #4a4949;
-}
+} */
 
 /* about section end */
 
 /* client section start */
 
-.client_section_2 {
+/* .client_section_2 {
   width: 100%;
   float: left;
-}
+} */
 
-.client_taital_main {
+/* .client_taital_main {
   width: 100%;
   display: flex;
   padding-top: 30px;
-}
-
+} */
+/* 
 .client_left {
   width: 20%;
   float: left;
   padding-left: 50px;
-}
+} */
 
-.client_img {
+/* .client_img {
   width: 90%;
-}
+} */
 
-.client_right {
+/* .client_right {
   width: 80%;
   float: left;
   padding-top: 20px;
@@ -601,7 +554,7 @@ img {
 
 /* blog section start */
 
-.blog_section {
+/* .blog_section {
   width: 100%;
   float: left;
 }
@@ -610,9 +563,9 @@ img {
   width: 100%;
   float: left;
   padding-top: 60px;
-}
+} */
 
-.blog_box {
+/* .blog_box {
   width: 100%;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px 0px;
@@ -621,9 +574,9 @@ img {
 
 .blog_img {
   width: 100%;
-}
+} */
 
-.date_text {
+/* .date_text {
   width: 100px;
   font-size: 18px;
   color: #ffffff;
@@ -634,24 +587,24 @@ img {
   position: absolute;
   top: -10px;
   left: 5px;
-}
+} */
 
-.prep_text {
+/* .prep_text {
   width: 100%;
   font-size: 20px;
   color: #3b3b3b;
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px 20px 10px 20px;
-}
+} */
 
-.lorem_text {
+/* .lorem_text {
   width: 100%;
   font-size: 14px;
   color: #3b3b3b;
   margin: 0px;
   padding: 0px 20px;
-}
+} */ */
 
 /* blog section end */
 

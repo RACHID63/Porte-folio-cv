@@ -1,6 +1,5 @@
-/* @import 'css/bootstrap.css';
-@import 'node_modules/bootstrap/dist/css/bootstrap.css';
-@import 'lightbox2/dist/css/lightbox.css'; */
+
+
 
 .gallery {
   border-radius: 20px;
@@ -9,7 +8,7 @@
 }/*# sourceMappingURL=gallerie.css.map */
 
 .btn {
-  border: solid;
+  border: solid 12px white;
   border-radius: 120px;
 }
 
@@ -32,7 +31,7 @@
   position: relative;
 }
 
-.cart-button {
+ .cart-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,7 +42,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
+} 
 
 .image-container:hover .cart-button {
   display: block;

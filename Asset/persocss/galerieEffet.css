@@ -12,6 +12,54 @@
     box-shadow: 0px 1px 20px 20px rgb(233 221 221 / 75%);
   }
 
-  /* custom-width {
+  custom-width {
     width: 600px;
-  } */
+  }
+
+  /* flash lumineux */
+  @keyframes blink {
+    0% { border-color: #ebd3d3; }
+    50% { border-color: wheat; }
+    100% { border-color: #ebee14; }
+  }
+  
+  .btn {
+    animation: blink 2s infinite;
+  }
+
+  button {
+    animation: blink 2s infinite;
+  }
+
+  .carousel-inner .banner_img img {
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @keyframes zoomEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .banner_img img {
+    animation: zoomEffect 20s infinite; /* J'ai doublé la durée de l'animation pour inclure le zoom arrière. */
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .lightbox .lb-caption {
+    font-size: 20px; /* Remplacez 20px par la taille de police que vous souhaitez */
+    color: #da6db2;
+}
+
+  
