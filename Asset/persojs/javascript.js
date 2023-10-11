@@ -39,6 +39,33 @@ window.onload = function() {
 
 
 
+// cloner toutes les images 
+// Sélectionnez le bouton 'Tout'
+let allButton = document.querySelector('button[data-gallery="all"]');
+
+// Ajoutez un écouteur d'événements au bouton 'Tout'
+allButton.addEventListener('click', function() {
+    // Sélectionnez la galerie 'Tout'
+    let allGallery = document.querySelector('#all-gallery');
+    
+    // Videz la galerie 'Tout'
+    allGallery.innerHTML = '';
+    
+    // Sélectionnez toutes les images de toutes les galeries
+    let allImages = document.querySelectorAll('.image-container');
+    
+    // Dupliquez chaque image et ajoutez-la à la galerie 'Tout'
+    allImages.forEach(function(image) {
+        let clonedImage = image.cloneNode(true);
+        allGallery.appendChild(clonedImage);
+    });
+});
+
+
+
+
+
+
 
 
 
