@@ -1,41 +1,63 @@
-<!DOCTYPE html>
-<html lang="fr">
+id="famille-gallery"
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="Asset/persocss/galerie.css">
-    <link rel="stylesheet" href="/Asset/persocss/galerieEffet.css">
-    <link rel="stylesheet" href="/asset/persocss/style.css">
-    <title>Galerie de photos</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Famille\siblings-7103506_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Famille\brother-1252735_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Famille\friendship-day-3104635_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Famille\mama-5098862_1280.jpg"
 
-<body class="bg-dark">
-    <div id="navbar"></div>
-    <h1 class="text-center my-4 text-light ">Galerie de photos</h1>
-    <div class="d-flex justify-content-center mb-5 mt-5 ">
-        <div class="btn-group" role="group" aria-label="Catégories de la galerie">
-            <button type="button" class="btn btn-info btn-lg gallery-button  p-3 " data-gallery="all">Tout</button>
-            <button type="button" class="btn btn-info btn-lg gallery-button  p-3 "
-                data-gallery="famille">Famille</button>
-            <button type="button" class="btn btn-info gallery-button " data-gallery="mariage">Mariage</button>
-            <button type="button" class="btn btn-info gallery-button " data-gallery="couple">Couple</button>
-            <button type="button" class="btn btn-info gallery-button " data-gallery="Grossesse">Grossesse</button>
-            <button type="button" class="btn btn-info gallery-button " data-gallery="bébé">Bébé</button>
-            <button type="button" class="btn btn-info gallery-button " data-gallery="baptême">Baptême</button>
-            <!-- Ajoutez un bouton pour chaque galerie -->
-        </div>
-    </div>
-    <div class="container">
+id="mariage-gallery"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\sunset-698501_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\wedding-1867547_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\wedding-2595862_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\wedding-dress-1486260_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\wedding-dresses-1486005_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\wedding-dresses-1486256_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\couple-260899_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\couple-443600_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\heart-529607_640.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\love-2587456_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\marriage-636018_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\mariage\pink-wine-1964457_1280.jpg"
+
+id="couple-gallery"
+
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-1194312_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-1822585_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-1869206_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-4615557_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\man-2425121_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\romantic-1934223_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\woman-1979272_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\black-and-white-2590810_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\bride-1355473_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-437968_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-768683_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Couple\couple-955926_1280.jpg"
+
+id="Grossesse-gallery"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\pregnant-775036_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\pregnant-6189040_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\woman-358779_1280.png"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\girl-18918_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\maternity-7890354_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Grossesse\pregnancy-2221950_1280.jpg"
+
+id="bébé-gallery"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Bébé\infant-2717347_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Bébé\baby-1151351_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Bébé\baby-2416718_1280.jpg"
+"C:\Users\rachi\OneDrive\Bureau\Porte folio cv\Asset\images\Bébé\father-22194_1280.jpg"
+
+
+
+--------------------------------------------------------------------------------------
+
+<div class="container">
         <div id="all-gallery" class="row gallery justify-content-center">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/mariage/marriage-636018_1280.jpg" data-lightbox="image-1"
+                <a href="../asset/images/mariage/marriage-636018_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
-                    <img src="/asset/images/mariage/marriage-636018_1280.jpg" class="img-fluid"
+                    <img src="../asset/images/mariage/marriage-636018_1280.jpg" class="img-fluid"
                         alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -48,9 +70,9 @@
         </div>
         <div id="famille-gallery" class="row gallery justify-content-center">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Famille/team-spirit-2447163_1280.jpg" data-lightbox="image-1"
-                    data-title="description">
-                    <img src="/asset/images/Famille/team-spirit-2447163_1280.jpg" class="img-fluid"
+                <a href="/asset/images/Famille/brother-1252735_1280.jpg" data-lightbox="image-1"
+                    data-title="L'image montre deux enfants dans un parc ou un jardin.Deux enfants ils sont proches l'un de l'autre, un enfant ayant son bras autour de l'épaule de l'autre. Ils portent des vêtements décontractés, l'un avec une veste noire et l'autre avec un pull rose. On peut voir leurs cheveux, l'un a les cheveux courts et roux et l'autre a les cheveux longs et bouclés. Le fond de l'image est vert, ce qui suggère qu'ils sont dans un espace ouvert comme un parc ou un jardin.">
+                    <img src="/asset/images/Famille/brother-1252735_1280.jpg" class="img-fluid"
                         alt="L'image montre deux enfants">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -61,9 +83,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Famille/brother-1252735_1280.jpg" data-lightbox="image-1"
-                    data-title="description">
-                    <img src="/asset/images/Famille/brother-1252735_1280.jpg" class="img-fluid"
+                <a href="/asset/images/Famille/friendship-day-3104635_1280.jpg" data-lightbox="image-1"
+                    data-title="L'image montre trois personnes debout près l'une de l'autre dans une étreinte amicale.La personne au milieu porte un t-shirt blanc avec un collier doré. La personne à gauche porte une robe blanche. La personne à droite porte un t-shirt blanc avec un motif noir dessus. Le fond de l'image est un mur gris.">
+                    <img src="/asset/images/Famille/friendship-day-3104635_1280.jpg" class="img-fluid"
                         alt="L'image montre trois personnes debout près l'une de l'autre dans une étreinte amicale.">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -74,9 +96,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Famille/family-2610205_1280.jpg" data-lightbox="image-1"
-                    data-title="description">
-                    <img src="/asset/images/Famille/family-2610205_1280.jpg" class="img-fluid"
+                <a href="/asset/images/Famille/siblings-7103506_1280.jpg" data-lightbox="image-1"
+                    data-title="Description de l'image">
+                    <img src="/asset/images/Famille/siblings-7103506_1280.jpg" class="img-fluid"
                         alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -87,46 +109,32 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Famille/friendship-day-3104635_1280.jpg" data-lightbox="image-1"
-                    data-title="description">
-                    <img src="/asset/images/Famille/friendship-day-3104635_1280.jpg" class="img-fluid"
+                <a href="/asset/images/Famille/siblings-7103506_1280.jpg" data-lightbox="image-1"
+                    data-title="Description de l'image">
+                    <img src="/asset/images/Famille/siblings-7103506_1280.jpg" class="img-fluid"
                         alt="Description de l'image">
                     <div class="lightbox-content">
-                        <button class="cart-button btn btn-Light  rounded -5 ">
-                            <i class= "fa fa-shopping-cart"></i> Ajouter
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
                         </button>
-                        <p class= "mt -1 ">CLICK POUR AGRANDIR L'IMAGE</p>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
                     </div>
                 </a>
             </div>
-            <div class= "col-sm -6 col-md -4 col-lg -3 m -3 image-container bg-dark ">
-                <a href= "/asset/images/Famille/mama-5098862_1280.jpg " data-lightbox= "image -1 "
-                    data-title= "description ">
-                    <img src= "/asset/images/Famille/mama-5098862_1280.jpg " class= "img-fluid "
-                        alt= "Description de l'image ">
-                    <div class= "lightbox-content ">
-                        <button class= "cart-button btn btn-Light  rounded -5 ">
-                            <i class= "fa fa-shopping-cart"></i> Ajouter
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
+                <a href="/asset/images/Famille/siblings-7103506_1280.jpg" data-lightbox="image-1"
+                    data-title="Description de l'image">
+                    <img src="/asset/images/Famille/siblings-7103506_1280.jpg" class="img-fluid"
+                        alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
                         </button>
-                        <p class= "mt -1 ">CLICK POUR AGRANDIR L'IMAGE</p>
-                    </div>
-                </a>
-            </div>
-            <div class= "col-sm -6 col-md -4 col-lg -3 m -3 image-container bg-dark ">
-                <a href= "/asset/images/Famille/mother-2935723 _1280.jpg " data-lightbox= "image -1 "
-                    data-title= "description ">
-                    <img src= "/asset/images/Famille/mother-2935723_1280.jpg " class= "img-fluid "
-                        alt= "Description de l'image ">
-                    <div class= "lightbox-content ">
-                        <button class= "cart-button btn btn-Light  rounded -5 ">
-                            <i class= "fa fa-shopping-cart"></i> Ajouter
-                        </button>
-                        <p class= "mt -1 ">CLICK POUR AGRANDIR L'IMAGE</p>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
                     </div>
                 </a>
             </div>
         </div>
-        
 
         <div id="mariage-gallery" class="row gallery justify-content-center bg-dark  " style="display: none;">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container">
@@ -437,18 +445,6 @@
         </div>
         <div id="bébé-gallery" class="row gallery justify-content-center">
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Bébé/infant-2717347_1280.jpg" data-lightbox="image-1"
-                    data-title="Description de l'image">
-                    <img src="/asset/images/Bébé/infant-2717347_1280.jpg" class="img-fluid" alt="Description de l'image">
-                    <div class="lightbox-content">
-                        <button class="cart-button btn btn-Light  rounded-5">
-                            <i class="fa fa-shopping-cart"></i> Ajouter
-                        </button>
-                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
                 <a href="/asset/images/Bébé/baby-1151351_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
                     <img src="/asset/images/Bébé/baby-1151351_1280.jpg" class="img-fluid" alt="Description de l'image">
@@ -461,62 +457,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Bébé/baby-1399332_1280.jpg" data-lightbox="image-1"
-                    data-title="Description de l'image">
-                    <img src="/asset/images/Bébé/baby-1399332_1280.jpg" class="img-fluid" alt="Description de l'image">
-                    <div class="lightbox-content">
-                        <button class="cart-button btn btn-Light  rounded-5">
-                            <i class="fa fa-shopping-cart"></i> Ajouter
-                        </button>
-                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
                 <a href="/asset/images/Bébé/baby-2416718_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
-                    <img src="/asset/images/Bébé/baby-2416718_1280.jpg" class="img-fluid"
-                                alt="Description de l'image">
-                            <div class="lightbox-content">
-                                <button class="cart-button btn btn-Light  rounded-5">
-                                    <i class="fa fa-shopping-cart"></i> Ajouter
-                                </button>
-                                <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                        <a href="/asset/images/Bébé/brothers-457234_1280.jpg" data-lightbox="image-1"
-                            data-title="Description de l'image">
-                            <img src="/asset/images/Bébé/brothers-457234_1280.jpg" class="img-fluid"
-                                alt="Description de l'image">
-                            <div class="lightbox-content">
-                                <button class="cart-button btn btn-Light  rounded-5 ">
-                                    <i class= "fa fa-shopping-cart"></i> Ajouter
-                                </button>
-                                <p class= "mt-1 ">CLICK POUR AGRANDIR L'IMAGE</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class= "col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark ">
-                        <a href= "/asset/images/Bébé/father-22194_1280.jpg " data-lightbox= "image-1 "
-                            data-title= "description ">
-                            <img src= "/asset/images/Bébé/father-22194_1280.jpg " class= "img-fluid "
-                                alt= "Description de l'image ">
-                            <div class= "lightbox-content ">
-                                <button class= "cart-button btn btn-Light  rounded-5 ">
-                                    <i class= "fa fa-shopping-cart"></i> Ajouter
-                                </button>
-                                <p class= "mt-1 ">CLICK POUR AGRANDIR L'IMAGE</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-        <div id="baptême-gallery" class="row gallery justify-content-center">
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/shoes-619523_1280.jpg" data-lightbox="image-1"
-                    data-title="Description de l'image">
-                    <img src="/asset/images/Baptême/shoes-619523_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <img src="/asset/images/Bébé/baby-2416718_1280.jpg" class="img-fluid" alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
                             <i class="fa fa-shopping-cart"></i> Ajouter
@@ -526,9 +469,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/baptism-644267_1280.jpg" data-lightbox="image-1"
+                <a href="/asset/images/Bébé/father-22194_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
-                    <img src="/asset/images/Baptême/baptism-644267_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <img src="/asset/images/Bébé/father-22194_1280.jpg" class="img-fluid" alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
                             <i class="fa fa-shopping-cart"></i> Ajouter
@@ -538,21 +481,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/bird-3058712_1280.jpg" data-lightbox="image-1"
+                <a href="/asset/images/Bébé/infant-2717347_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
-                    <img src="/asset/images/Baptême/bird-3058712_1280.jpg" class="img-fluid" alt="Description de l'image">
-                    <div class="lightbox-content">
-                        <button class="cart-button btn btn-Light  rounded-5">
-                            <i class="fa fa-shopping-cart"></i> Ajouter
-                        </button>
-                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/dew-638110_1280.jpg" data-lightbox="image-1"
-                    data-title="Description de l'image">
-                    <img src="/asset/images/Baptême/dew-638110_1280.jpg" class="img-fluid"
+                    <img src="/asset/images/Bébé/infant-2717347_1280.jpg" class="img-fluid"
                         alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -563,9 +494,9 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/man-417583_1280.jpg" data-lightbox="image-1"
+                <a href="/asset/images/Bébé/infant-2717347_1280.jpg" data-lightbox="image-1"
                     data-title="Description de l'image">
-                    <img src="/asset/images/Baptême/man-417583_1280.jpg" class="img-fluid"
+                    <img src="/asset/images/Bébé/infant-2717347_1280.jpg" class="img-fluid"
                         alt="Description de l'image">
                     <div class="lightbox-content">
                         <button class="cart-button btn btn-Light  rounded-5">
@@ -576,32 +507,34 @@
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
-                <a href="/asset/images/Baptême/man-3672010_1280.jpg" data-lightbox="image-1"
-                    data-title= "Description de l'image"
-                    <img src="/asset/images/Baptême/man-3672010_1280.jpg" class= "img-fluid"
-                        alt= "Description de l'image">
-                    <div class= "lightbox-content">
-                        <button class= "cart-button btn btn-Light  rounded -5 ">
-                            <i class= "fa fa-shopping-cart"></i> Ajouter
+                <a href="/asset/images/Bébé/infant-2717347_1280.jpg" data-lightbox="image-1"
+                    data-title="Description de l'image">
+                    <img src="/asset/images/Bébé/infant-2717347_1280.jpg" class="img-fluid"
+                        alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
                         </button>
-                        <p class= "mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
                     </div>
                 </a>
             </div>
         </div>
-        
+        <div id="baptême-gallery" class="row gallery justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3 m-3 image-container bg-dark">
+                <a href="../asset/images/mariage/marriage-636018_1280.jpg" data-lightbox="image-1" data-title="Description de l'image">
+                    <img src="../asset/images/mariage/marriage-636018_1280.jpg" class="img-fluid" alt="Description de l'image">
+                    <div class="lightbox-content">
+                        <button class="cart-button btn btn-Light  rounded-5">
+                            <i class="fa fa-shopping-cart"></i> Ajouter
+                        </button>
+                        <p class="mt-1">CLICK POUR AGRANDIR L'IMAGE</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+            
     </div>
-    <div id="footer"></div>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
-    <script src="/Asset/persojs/jquery.min.js"></script>
-    <script src="/Asset/persojs/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="Asset/persojs/javascript.js"></script>
-</body>
 
-</html>
+
+

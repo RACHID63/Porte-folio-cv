@@ -238,8 +238,8 @@
 
   .carousel-inner {
     position: absolute;
-    top: -39px;
-    left: 60px;
+    top: 400px;
+    left: 95px;
   }
 
   .carousel-inner .banner_img img {
@@ -399,7 +399,7 @@
   .carousel-inner {
     position: absolute;
     top: -39px;
-    left: 60px;
+    left: 250px;
   }
 
   .carousel-inner .banner_img img {
