@@ -176,10 +176,10 @@ button {
   margin: 0;
   /* font-size: 400px; */
   position: absolute;
-  left: 50vw;
-  top: 53vh;
+  left: 60vw;
+  top: 40vh;
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
   background-image: linear-gradient(
     -225deg,
     #ec1349 15%,
@@ -196,6 +196,54 @@ button {
 
   animation: textclip 2s linear infinite;
 }
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-toggle:focus {
+    outline: none;
+  }
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #fff;
+}
+
+  .navbar-toggle {
+    display: block;
+  }
+}
+
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar-brand {
+  float: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 7.5px 0;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: block;
+}
+
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+
 
 @keyframes textclip {
   to {
@@ -380,13 +428,13 @@ img#brand {
 }
 
 #banner_slider a.carousel-control-prev {
-  top: 10vh;
-  left: 33vw;
+  top: 24vh;
+  left: 22vw;
 }
 
 #banner_slider a.carousel-control-next {
-  top: 10vh;
-  left: 36vw;
+  top: 24vh;
+  left: 24vw;
   color: #fefefd;
   background-color: #4a4949;
 }

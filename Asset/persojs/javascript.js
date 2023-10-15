@@ -40,7 +40,7 @@ window.onload = function() {
 
 
 // cloner toutes les images 
-// Sélectionnez le bouton 'Tout'
+// Sélectionnez le bouton 'Toutes les images'
 let allButton = document.querySelector('button[data-gallery="all"]');
 
 // Ajoutez un écouteur d'événements au bouton 'Tout'
